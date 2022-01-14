@@ -1,21 +1,20 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<script setup></script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <router-view />
 </template>
 
-<style>
+<style lang="scss">
+body {
+  padding: 0;
+  margin: 0;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  // height: 100vh;
+  // font-size: 14px;
+  // color: white;
+  // background-image: linear-gradient(25deg, #f15113, #da895f, #adb5a3, #00ddeb);
+  // background-image: linear-gradient(25deg, #391a51, #772d58, #b3435d, #f05b61);
+  // animation: gradient 3s ease infinite;
 }
 </style>
